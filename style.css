@@ -1,0 +1,64 @@
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    background-color: green;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px;
+}
+.fild{
+    height: 425px;
+    width: auto;
+    margin: 20px 15px 0px 15px;
+    border: 5px solid green;
+    border-radius: 50px;
+}
+.fild:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+.bat{
+    /* padding-top: 58px; */
+    transition: transform 0.2s ease-in;
+}
+.boll{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 0, 0);
+    border: 3px dotted rgb(109, 109, 109);
+    border-radius: 50%;
+    margin-left: 445px;
+    margin-top: 40px;
+    transition: transform 1s ease-out 0.2s;
+}
+.fild:hover .boll{
+    transform: translate(895px, -180px);
+}
+
+.player{
+    display: flex;
+    gap: 825px;
+    margin-top: 15px;
+}
+.player .ou1{
+    margin-left: 100px;
+    background-color: rgb(255, 0, 0);
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.player .ou2{
+/* margin-left: 100px; */
+background-color: rgb(255, 0, 0);
+height: 35px;
+width: 200px;
+border-radius: 15px;
+padding: 10px 10px 0px 10px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
